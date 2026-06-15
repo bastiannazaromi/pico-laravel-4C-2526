@@ -47,7 +47,7 @@ relay = Pin(18, Pin.OUT)
 relay.value(1)  # default OFF
 
 # URL server
-base_url = "http://192.168.21.57:8000/api"
+base_url = "http://192.168.25.155:8000/api"
 get_status_url = base_url + "/relay"
 post_gps_url = base_url + "/gps"
 
